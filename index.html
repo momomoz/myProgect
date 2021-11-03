@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="form-card">
+        <div class="h3">Registration</div>
+        <div id="messege"></div>
+
+        <div class="form">
+            <label for="email" class="label">Email</label>
+            <input id="email" type="email" placeholder="Email" value="" class="input col" />
+        </div>
+
+        <div class="form">
+            <label for="nm" class="label">Name</label>
+            <input id="nm" type="text" placeholder="Name" value="" class="input" />
+        </div>
+
+        <div class="form">
+            <label for="pw" class="label">Password</label>
+            <input id="pw" type="password" placeholder="Password" value="" class="input" />
+        </div>
+        <div class="form">
+            <label for="cnfrm" class="label">Confirmation</label>
+            <input id="cnfrm" type="password" placeholder="Confirmation" value="" class="input" />
+        </div>
+        <div class="form">
+            <button id="rgstr_btn" style="float: left;" type="submit" class="myBtn" onClick="store()">Create Account</button>
+            <div id="AlreadyReg" class="registered" onClick="registered()">Already registered?</div>
+        </div>
+    </div>
+
+    <!---->
+    <script type="text/javascript" language="javascript" src="./script.js"></script>
+
+</body>
+
+</html>
